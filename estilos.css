@@ -1,0 +1,29 @@
+body{
+    background-color: beige;
+}
+#cabezote{
+    background-color: chartreuse;
+    text-align: center;
+}
+#btn-registrar{
+    text-align: right;
+    background-color: darkgreen;
+}
+#enlace-registro{
+    color: aliceblue;
+}
+p{
+    text-align: justify;
+}
+#Registro{
+    background-color: chartreuse; 
+    text-align: center;
+
+}
+
+#btn-submit-form{
+    background-color: chartreuse;
+    
+}
+
+  
