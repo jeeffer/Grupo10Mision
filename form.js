@@ -36,6 +36,11 @@ if (espacios) {
   alert ("La contraseña no puede contener espacios en blanco");
   return false;
 }
+
+if (p1.length == 0 || p2.length == 0) {
+    alert("Los campos de la password no pueden quedar vacios");
+    return false;
+  }
     
 } 
 
