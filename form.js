@@ -22,7 +22,20 @@ function checkTelefono()
 
 function checkContrasena() {
     let p1 = document.getElementById("password").value;
-    let p2 = document.getElementById("password")value;
+    let p2 = document.getElementById("password").value;
+    var espacios = false;
+    let cont = 0;
+
+while (!espacios && (cont < p1.length)) {
+  if (p1.charAt(cont) == " ")
+    espacios = true;
+  cont++;
+}
+   
+if (espacios) {
+  alert ("La contraseña no puede contener espacios en blanco");
+  return false;
+}
     
 } 
 
