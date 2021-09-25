@@ -32,16 +32,21 @@ while (!espacios && (cont < p1.length)) {
   cont++;
 }
    
-if (espacios) {
+ if (espacios) {
   alert ("La contraseña no puede contener espacios en blanco");
   return false;
 }
 
-if (p1.length == 0 || p2.length == 0) {
+else if (p1.length == 0 || p2.length == 0) {
     alert("Los campos de la password no pueden quedar vacios");
     return false;
   }
-    
+
+else if (p1 == /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/){ 
+    alert("Los campos de la password no son validos");
+    return false;
+}    
+
 } 
 
   function checkCorreo(correo) {
