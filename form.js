@@ -1,3 +1,4 @@
+
 function checkNombre ()
 {
 let nombre = document.getElementById("nombre").value;
@@ -19,7 +20,7 @@ function checkTelefono()
  registrar_telefono(telefono, "telefono");
  }
 
-
+//cambio    
 function checkContrasena() {
     let p1 = document.getElementById("password").value;
     let p2 = document.getElementById("password").value;
