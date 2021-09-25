@@ -20,9 +20,11 @@ function checkTelefono()
  }
 
 
-
- 
-  
+function checkContrasena() {
+    let p1 = document.getElementById("password").value;
+    let p2 = document.getElementById("password")value;
+    
+} 
 
   function checkCorreo(correo) {
     let correo = document.getElementById("correo").value;
