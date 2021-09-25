@@ -1,3 +1,7 @@
+function click_boton(){
+
+
+
 
 function checkNombre ()
 {
@@ -59,7 +63,7 @@ else if (p1 == /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?
     }
   }
 
-
+}
 
 
 function registrar_campo(campo, ref_campo) {
